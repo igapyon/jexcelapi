@@ -24,7 +24,7 @@ package jxl.common.log;
  * be overwritten at build time if loggers other than the default,
  * no-dependency logger are required
  */
-public class LoggerName
+public class Log4jLoggerName
 {
   public final static String NAME=jxl.common.log.Log4JLogger.class.getName();
 }
